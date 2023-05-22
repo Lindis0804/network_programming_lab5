@@ -73,7 +73,7 @@ int main(int argc, char *argv[]) {
         break;
       }
       buf[ret] = 0;
-      printf("Received: %s\n", buf);
+      printf("%s:%d: %s\n", ipAddr, recv_port, buf);
     }
     // printf("send message:\n");
   }
